@@ -1,0 +1,22 @@
+@media only screen and (max-width: 800px) {
+    header > h1{ font-size: 40px; }
+
+    #navBar {
+        margin: 5px;
+    }
+
+    #navBar > ul {
+        list-style-position: outside;
+        margin: 0;
+    }   
+    .pages {
+        max-width: fit-content;
+        margin: 2px 0px;
+    }
+
+    .img-parent {
+        display: flex;
+        flex-direction: column;
+        padding: 15vh 12vw 0vh;
+    }
+}
