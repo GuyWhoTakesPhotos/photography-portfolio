@@ -8,5 +8,7 @@ const observer = new IntersectionObserver((entries) => {
     });
 });
 
-const hiddenElements = document.querySelectorAll('img:not(#modalImg)')
-hiddenElements.forEach((el) => observer.observe(el))
+function imgFade() {
+    const imgs = document.querySelectorAll('img:not(#modalImg)');
+    imgs.forEach((el) => observer.observe(el));
+}

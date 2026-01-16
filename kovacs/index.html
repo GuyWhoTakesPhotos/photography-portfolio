@@ -3,41 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2025 Showcase</title>
+    <title>All Photos</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&display=swap" rel="stylesheet">
     <link href="../style.css" rel="stylesheet">
-    <!-- <link href="../moblie_style.css" rel="stylesheet"> -->
+    <link href="../moblie_style.css" rel="stylesheet">
     <script defer src="../photoDict.js"></script>
     <script defer src="../photo_formatting.js"></script>
     <script defer src="../other_pages_script.js"></script>
     <script defer src="../fade_in.js"></script>
 </head>
-<body class="edu-sa-hand-400" style="background-color: #ad7ece;" onload="switchUp('/Showcase/', showcasePhotosLookup)">
-    <header 
-        style="background-image: url('/Design Photos/drum-13.JPG');
-               background-position-y: 90%;
-               background-size: cover;
-               ">
-        <div id="navBar" 
-             style="background-color:rgba(8, 8, 8, 0.75); padding: 0px 20px; border-radius: 10px;">
+<body class="edu-sa-hand-400" onload="fourWide('/Web Photos/', mainPhotoLookup)">
+    <header>
+        <div id="navBar">
             <ul>
                 <li class="pages"><a href="../">Home</a></li>
-                <li class="pages"><a href="/kovacs" >All Photos</a></li>
-                <li class="pages"><a href="" class="actve">2025 Eastglen Showcase</a></li>
-                <li class="pages"><a href="#">Rotating</a></li>
+                <li class="pages"><a href="" class="actve">All Photos</a></li>
+                <li class="pages"><a href="/showcase2025">2025 Eastglen Showcase</a></li>
+                <li class="pages"><a href="">Rotating</a></li>
             </ul>
         </div>
-        <h1 style="background-color:rgba(8, 8, 8, 0.75); padding: 10px 20px;border-radius: 10px;">2025 Showcase</h1>
+        <h1>All Photos</h1>
     </header>
     <div>
         <div 
         id="imgParent" 
         class="img-parent"
-        style="grid-template-rows: repeat(9, 1fr);"
+        style="grid-template-columns: repeat(4, 269px);"
         >
-        
         </div>
     </div>
     <div id="modalPopup" class="modal">

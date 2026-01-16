@@ -1,4 +1,6 @@
 @media only screen and (max-width: 800px) {
+    body {height: 2000vh;}
+    
     header > h1{ font-size: 40px; }
 
     #navBar {
@@ -14,9 +16,22 @@
         margin: 2px 0px;
     }
 
-    .img-parent {
+    /* .img-parent {
         display: flex;
         flex-direction: column;
         padding: 15vh 12vw 0vh;
+    } */
+    /* .img-parent div{
+        border: 10px solid;
+
+    } */
+
+    /* ._916 {
+        width: 100%;
+        height: auto;
     }
+    ._169 {
+        width: auto;
+    } */
+
 }
