@@ -135,7 +135,7 @@ var mainPhotoLookup = [
     },
     {
         photoName: 'Leading to Disappointment',
-        photoRatio: 916,
+        photoRatio: 169,
         photoPath: 'disappointment.jpg'
     },
     {
