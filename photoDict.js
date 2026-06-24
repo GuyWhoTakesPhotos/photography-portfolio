@@ -22,7 +22,7 @@ var showcasePhotosLookup = [
         photoPath: 'ali-glowing.jpg'
     },
     {
-        photoName: 'Collage of a Crush',
+        photoName: 'Collage of a Crush (Not Mine)',
         photoRatio: 169,
         photoPath: 'collage-of-crush.jpg'
     },
